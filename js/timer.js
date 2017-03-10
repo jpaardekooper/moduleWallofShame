@@ -1,7 +1,5 @@
 'use strict'
 var h1 = document.getElementsByTagName('h1')[0],
-    start = document.getElementById('start'),
-    clear = document.getElementById('clear'),
     seconds = 0, minutes = 0, hours = 0,
     t;
 
