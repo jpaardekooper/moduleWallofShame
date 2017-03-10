@@ -1,0 +1,59 @@
+.content-left{
+    float:left;
+}
+span{
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size:13px;
+}
+
+#secret {
+    margin-top: 15px;
+    color: red;
+    font-size: 20px;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+#man {
+    color: red;
+    font-size: 80px;
+    font-family: 'Gloria Hallelujah', cursive;
+    position: absolute;
+    overflow:hidden;
+    width: 841px;
+}
+
+.popup{
+    position:absolute;
+    top:40%;
+    left:55%;
+    height: 150px;
+
+}
+.popupAli{
+    position:absolute;
+    top:40%;
+    height: 50px;
+
+}
+
+@keyframes movingTopToBottom {
+    0% {
+        top: 100px;
+    }
+
+    100% {
+        top: -300px;
+    }
+}
+#divTAReviews {
+    animation: movingTopToBottom 5s linear infinite;
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+}
+#divTAReviews2 {
+    animation: movingTopToBottom 5s linear infinite;
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+}
